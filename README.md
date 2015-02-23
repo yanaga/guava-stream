@@ -21,7 +21,7 @@ The **guava-stream** project provides ```java.util.stream.Collector``` implement
 list.stream().collect(MoreCollectors.toImmutableList());
 ```
 
-**guava-stream** is available on [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22guava-stream%22)
+**guava-stream** is available on [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22guava-stream%22).
 
 You can add this dependency to your Maven project:
 
@@ -38,3 +38,5 @@ Or if you are using Gradle:
 ```groovy
 compile "me.yanaga:guava-stream:1.0"
 ```
+
+Currently we have ```Collector``` implementations for ```ImmutableList```, ```ImmutableSet```, ```ImmutableSortedSet```, ```ImmutableMap```, ```ImmutableSortedMap```, ```ImmutableBiMap```, ```ImmutableMultiset```, ```ImmutableSortedMultiset```, ```ImmutableMultimap```, ```ImmutableListMultimap```, ```ImmutableSetMultimap```, and ```ImmutableTable```.
