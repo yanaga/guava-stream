@@ -21,7 +21,7 @@ The **guava-stream** project provides ```java.util.stream.Collector``` implement
 list.stream().collect(MoreCollectors.toImmutableList());
 ```
 
-**guava-stream** is available on [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22guava-stream%22).
+**guava-stream** is available on [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22guava-stream%22), and requires at least **Java 8**.
 
 You can add this dependency to your Maven project:
 
