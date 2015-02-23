@@ -11,7 +11,7 @@
     </organization>
     <inceptionYear>2015</inceptionYear>
     <description>
-        Java 8 Stream API classes for Guava
+        Java 8 Stream API Collectors for Guava Immutable Collections.
     </description>
     <url>http://github.com/yanaga/guava-stream</url>
     <licenses>
